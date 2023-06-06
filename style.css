@@ -7,7 +7,7 @@ body{
 
 .header{
     display:flex;
-    background-color: aqua;
+    background-color: #1F2037;
     height: 32px;
 
     .headerlogo{
@@ -20,6 +20,8 @@ body{
     flex:1;
     justify-content: center;
     align-items: center;
+    font-size:24px;
+    color: #F9FAF8;
 }
 
 .right-links{
@@ -39,31 +41,42 @@ ul{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    text-size-adjust: 18px;
 }
 
 .top{
-    background-color: blue;
+    background-color:  #1F2037;
     height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    .top-image{
+        background-color: grey;
+        width:150px;
+        height:150px;
+    }
+    
 }
 
 .midone{
-    background-color: blueviolet;
+    background-color: white;
     height:300px;
 }
 
 .midtwo{
-    background-color: coral;
+    background-color: #E5E7EB;
     height:300px;
 }
 
 .bottom{
-    background-color: firebrick;
+    background-color: white;
     height:300px;
 }
 
 .footer{
-    background-color: darkgray;
+    background-color: #1F2937;
     height:32px;
     display: flex;
     align-items: center;
