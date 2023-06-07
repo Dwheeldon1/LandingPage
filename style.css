@@ -1,8 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
-    height:1264px;
-          
+    height:1264px;   
 }
 
 .header{
@@ -36,7 +35,6 @@ ul{
     align-items: flex-end;
     padding-right: 40px;
     gap: 24px;
-    
 }
 
 a{
@@ -52,6 +50,24 @@ a{
     align-items: center;
     justify-content: space-around;
     
+    .main{
+        color:#F9FAF8;
+        text-size-adjust: 48px;
+        font-weight: 800;
+    }
+
+    .second{
+        color:#E5E7EB;
+        text-size-adjust: 18px;
+    }
+
+    .btn-top{
+        background-color: #3882F6;
+        color: white;
+        border: none;
+        border-radius: 10%;
+    }
+
     .top-image{
         background-color: grey;
         width:150px;
@@ -60,9 +76,30 @@ a{
     
 }
 
+
+
 .midone{
     background-color: white;
     height:300px;
+    display:flex;
+    flex-direction: column;
+    .mid-image{
+        display: flex;
+        
+        
+        .img-one,
+        .img-two,
+        .img-three,
+        .img-four{
+            background-color: grey;
+            width:150px;
+            height:150px;
+            
+            flex-direction: column;
+        }
+
+       
+    }
 }
 
 .midtwo{
