@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
-    height:1264px;   
+    height:1064px;   
 }
 
 .header{
@@ -140,14 +140,47 @@ figcaption{
 
 .bottom{
     background-color: white;
-    height:300px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .box{
+        height: 100px;
+        width: 650px;
+        display:flex;
+        padding-left: 50px;
+        align-items: center;
+        background-color: #3882F6;  
+        color:white;
+
+        .btm-main{
+            margin-bottom: 0px;
+            font-size:24px;
+        }
+
+        .btm-second{
+            margin-top: 0px;
+            font-size:18px;
+        }
+        
+        .btbut{
+            margin-left: 100px;
+            background-color: #3882F6;
+            color: white;
+            border-color: white;
+            border-radius: 10%
+            
+        }
+    }
 }
+
 
 .footer{
     background-color: #1F2937;
     height:32px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
         
     }
